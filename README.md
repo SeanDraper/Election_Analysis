@@ -6,6 +6,8 @@ We have been asked by the election commission to analyze a large dataset of elec
 
 ## Election Audit Results
 
+[Link to Python Challenege code](https://github.com/SeanDraper/Election_Analysis/blob/main/PyPoll_Challenge.py)
+
 In this section, we will lay out the results that were determined by our analysis as well as provide screenshots and snippets of code on how the analysis was conducted.
 
 - How many votes were cast in this congressional election?
