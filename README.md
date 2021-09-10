@@ -2,7 +2,7 @@
 
 ## Overview of Election Audit
 
-We have been asked by the election commission to analyze a large dataset of election data to determmine the voter turnout for each county, the percentage of votes for each county, and which county had the highest turnout. We will be adding this on to the already completed analysis of who actually won the election. We will be creating Python code that will extract the election data .csv and loop over all the rows in the dataset to determine the results for each county. We will then print the results to the console as well as write the results into a .txt file so that the analysis can be easily viewed by the election commission.
+We have been asked by the election commission to analyze a large dataset of election data to determine the voter turnout for each county, the percentage of votes for each county, and which county had the highest turnout. We will be adding this on to the already completed analysis of who actually won the election. We will be creating Python code that will extract the election data .csv and loop over all the rows in the dataset to determine the results for each county. We will then print the results to the console as well as write the results into a .txt file so that the analysis can be easily viewed by the election commission.
 
 ## Election Audit Results
 
@@ -30,7 +30,7 @@ We created a loop to tabulate the results for each county. We first added each c
 
 ![County Loop2](Resources/county_loop2.png)
 
-The country that cast the most votes was Denver with 82.8% of the votes and 306,055 cast. We calculated the winning county in the avove snippet, and stored the winning county name, winning county count, and winning county percentage into variables. Then we created another f string to print the winning results and write them to a txt file.
+The country that cast the most votes was Denver with 82.8% of the votes and 306,055 cast. We calculated the winning county in the above snippet, and stored the winning county name, winning county count, and winning county percentage into variables. Then we created another f string to print the winning results and wrote them to a txt file.
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
@@ -40,7 +40,7 @@ In the screenshot above you can see the printed console output of the total numb
 
 ![Candidate Loop1](Resources/candidate_loop1.png)
 
-The loop for candidates worked very simililarly to the loop for counties. We iterated over each row and added a vote to each candidate then converted the votes to a percentage based on the total votes. We used an f string to format the results so that they could be printed and written.
+The loop for candidates worked very simililarly to the loop for counties. We iterated over each row and added a vote to each candidate and then converted the votes to a percentage based on the total vote. We used an f string to format the results so that they could be printed and written.
 
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
@@ -48,7 +48,7 @@ The candidate that won the election was Diana DeGette. She received 272,892 vote
 
 ![Candidate Loop2](Resources/candidate_loop2.png)
 
-This portion of the candidate loop calculated winner. After that we used an f string to format the results. Finally we printed the results to the console and wrote the results to a txt file.
+This portion of the candidate loop calculated the winner. After that we used an f string to format the results. Finally we printed the results to the console and wrote the results to a txt file.
 
 ## Election-Audit Summary
 
